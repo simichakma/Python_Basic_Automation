@@ -27,8 +27,12 @@ for i in range(5):
     counter += 2
     print(counter)
 
-#3.
+#3. Create a simple savings balance calculator: add interest using '*='
+balance = 100
+interest_rate = 1.10  #Interest rate: 10%
 
+balance *= interest_rate
+print(f"Updated balance after 10% interest: {balance}")
 
 
 #4. Simulate a countdown where each step decreases by using `-=`
